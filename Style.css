@@ -148,7 +148,6 @@
     margin-top: 50px;
     height: 350px;
 }
-
 .img_item p {
     text-align: center;
     font-weight: bolder;
@@ -212,7 +211,7 @@
     text-decoration: none;
     color: #726b6bea;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 13px;
 }
 
 .past_1 {
@@ -320,11 +319,13 @@
         gap: 30px;
         margin: 0;
         width: 90%;
+        align-items: center;
     }
     .future {
         flex-direction: column;
-        width: 70%;
+        width: 90%;
         height: 50%;
+        /* align-items: center; */
     }
 
     .past_1 {
